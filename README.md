@@ -12,19 +12,20 @@ It can encrypt text files with a key and automatically decrypt files by guessing
 - ⚠️ **Educational project for learning C and basic cryptography (not intended for professional use)**
 
 ## How to Compile
-gcc CaesarCipherTool.c -o Caesar
+    gcc CaesarCipherTool.c -o Caesar
 ## How to Run
-./Caesar
+    ./Caesar
 
 
 ## Menu Options
-    Encrypt a file
+
+ Encrypt a file :
 
    - Input the file to encrypt and the output file name
 
    - Enter a numeric key (any number; the program will use key % 26)
 
-    Auto-decrypt a file
+Auto-decrypt a file :
 
    - Input the encrypted file and the output file name
 
@@ -37,7 +38,7 @@ gcc CaesarCipherTool.c -o Caesar
     
 ## Usage/Examples
     
-       Encrypt a file
+  Encrypt a file:
 
  - Menu: choose 1
 
@@ -47,7 +48,7 @@ gcc CaesarCipherTool.c -o Caesar
 
  - Enter encryption key: 3
 
-       Auto-decrypt a file
+    Auto-decrypt a file :
 
  - Menu: choose 2
 
